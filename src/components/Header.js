@@ -1,5 +1,10 @@
+import Header from "./Header";
 const Header = () => {
-  return <div></div>;
+  return (
+    <header>
+      <h1>Task Tracker</h1>
+    </header>
+  );
 };
 
 export default Header;
